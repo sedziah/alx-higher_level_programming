@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-for a in range(ord('a'), ord('z') + 1):
-    print("{:c}".format(a), end='')
-
+for i in range(97, 98+25):
+    print("{0}".format(chr(i)), end="")
